@@ -9,9 +9,9 @@
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <!--<preference name="orientation" value="portrait" />-->
-    <preference name="ios-orientation-iphone" value="portrait" />
-    <preference name="ios-orientation-ipad" value="portrait and landscape" /> 
+    <preference name="orientation" value="default" />
+    <!--<preference name="ios-orientation-iphone" value="portrait" />
+    <preference name="ios-orientation-ipad" value="portrait and landscape" /> -->
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
