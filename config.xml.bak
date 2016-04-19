@@ -9,7 +9,7 @@
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="orientation" value="portrait" />
+    <preference name="orientation" value="default" />
     <!--<preference name="ios-orientation-iphone" value="portrait" />
     <preference name="ios-orientation-ipad" value="portrait and landscape" /> -->
     <preference name="target-device" value="universal" />
@@ -87,5 +87,8 @@
     <engine name="ios" spec="~3.9.2" />
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
     </feature>
 </widget>
